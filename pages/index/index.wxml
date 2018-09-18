@@ -1,0 +1,42 @@
+<view class="index-swiper">
+  <image src="//m.360buyimg.com/mobilecms/jfs/t1/5054/20/4940/91831/5b9dfb5bE6fa216d4/ca387e914fdb6f5e.jpg!cr_1125x549_0_72" class="swiper-image"></image>
+</view>
+
+<view class="index-nav">
+  <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-01.png"></image>
+    <text>美食</text>
+  </navigator>
+    <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-02.png"></image>
+    <text>沐浴</text>
+  </navigator>
+    <navigator class="nav-item" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-03.png"></image>
+    <text>结婚啦</text>    
+  </navigator>
+    <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-04.png"></image>
+    <text>卡拉OK</text>    
+  </navigator>
+    <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-05.png"></image>
+    <text>找工作</text>    
+  </navigator>
+    <navigator class="nav-item" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-06.png"></image>
+    <text>辅导班</text>  
+  </navigator>
+    <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-07.png"></image>
+    <text>汽车保养</text>    
+  </navigator>
+    <navigator class="nav-item border-right" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-08.png"></image>
+    <text>租房</text>    
+  </navigator>
+    <navigator class="nav-item" href="javascript: void()">
+    <image class="nav-icon" src="/assets/icons/grid-09.png"></image>
+    <text>装修</text>    
+  </navigator>
+</view>

@@ -1,0 +1,38 @@
+.swiper-image {
+  width: 100%;
+  height: 364rpx;
+}
+
+.index-nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-item {
+  width: 33.3%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid #eee;
+}
+
+.nav-icon {
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 16px;
+}
+
+.border-right {
+  position: relative;
+}
+
+.border-right::after {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  border-right: 1rpx solid #eee; 
+}
