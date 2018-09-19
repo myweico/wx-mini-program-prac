@@ -1,2 +1,21 @@
-<!--pages/profile/index.wxml-->
-<text>pages/profile/index.wxml</text>
+<view class="profile">
+  <view class="avatar flex-center">
+    <image class="avatar-image" src="/assets/images/avatar.png"></image>
+  </view>
+
+  <view class="cell">
+    <view class="cell-item arrow-right">个人资料</view>
+    <view class="cell-item arrow-right">我的优惠券</view>
+  </view>
+
+  <view class="cell">
+    <view class="cell-item arrow-right">常见问题</view>
+    <view class="cell-item arrow-right">使用条款</view>
+    <view class="cell-item arrow-right">常见问题</view>
+    <view class="cell-item arrow-right">使用条款</view>
+  </view>
+
+  <view class="cell">
+    <view class="cell-item arrow-right">设置</view>
+  </view>
+</view>

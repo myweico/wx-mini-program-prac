@@ -30,7 +30,27 @@ page {
   display: block;
   width: 20rpx;
   height: 20rpx;
-  border-top: 2rpx solid #333;
-  border-right: 2rpx solid #333;
+  border-top: 2rpx solid #999;
+  border-right: 2rpx solid #999;
   transform: rotate(45deg);
+}
+
+/* 居中 */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 列表 */
+.cell {
+  margin: 20rpx 0;
+}
+
+.cell-item {
+  line-height: 86rpx;
+  padding: 0 30rpx;
+  font-size: 16px;
+  margin-bottom: 2rpx;
+  background: #fff;
 }

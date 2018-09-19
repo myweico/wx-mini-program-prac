@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/message/index",
     "pages/profile/index",
-    "pages/contact/index"
+    "pages/contact/index",
+    "pages/nav/food/food"
   ],
   "window":{
     "backgroundTextStyle":"light",

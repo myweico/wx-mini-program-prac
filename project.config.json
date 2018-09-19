@@ -39,9 +39,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "消息",
-					"pathName": "pages/message/index"
+					"id": 0,
+					"name": "我的信息",
+					"pathName": "pages/profile/index",
+					"query": ""
 				}
 			]
 		}
