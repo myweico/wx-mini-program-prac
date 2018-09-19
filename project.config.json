@@ -40,8 +40,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "我的信息",
-					"pathName": "pages/profile/index",
+					"name": "调试",
+					"pathName": "pages/nav/food/food",
 					"query": ""
 				}
 			]
