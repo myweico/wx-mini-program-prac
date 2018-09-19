@@ -10,7 +10,7 @@
 </swiper-item>
 </swiper>
 
-<view class="index-nav">
+<view class="index-nav bg-white mb-20 sb">
   <navigator class="nav-item border-right" href="javascript: void()">
     <image class="nav-icon" src="/assets/icons/grid-01.png"></image>
     <text>美食</text>
@@ -49,7 +49,7 @@
   </navigator>
 </view>
 
-<view class="link">
+<view class="index-link bg-white">
   <navigator class="link-item"><image src="/assets/images/link-01.png" mode="widthFix"></image></navigator>
   <navigator class="link-item"><image src="/assets/images/link-02.png" mode="widthFix"></image></navigator>
 </view>

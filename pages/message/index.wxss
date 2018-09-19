@@ -1,0 +1,43 @@
+/* pages/message/index.wxss */
+.message-item {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 15px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20rpx;
+}
+
+.item-image {
+  width: 100%;
+  align-self: center;
+}
+
+.item-title {
+  font-size: 24px;
+  margin-bottom: 10rpx;
+}
+
+.item-date {
+  color: #ccc;
+  font-size: 14px;
+  padding-bottom: 10rpx;
+  margin-bottom: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+
+.item-desc {
+  margin-top: 20rpx;
+  font-size: 20px;
+}
+
+.item-detail {
+  margin-top: 20rpx;
+  border-top: 1px solid #ddd;
+  padding-top: 20rpx;
+  font-size: 16px;
+  color: #333;
+}
+
+
+

@@ -1,0 +1,19 @@
+<!--pages/message/index.wxml-->
+<view class="message">
+<view class="message-item">
+  <text class="item-title">标题</text>
+  <text class="item-date">2017-12-05</text>
+  <image class="item-image" src="//m.360buyimg.com/mobilecms/s1125x690_jfs/t22549/312/448386558/150332/9fd5b1f1/5b30a40eNf12c54d6.jpg!cr_1125x549_0_72!q70.jpg.dpg" mode="widthFix"></image>
+  <text class="item-desc">越努力，越幸运</text>
+  <text class="item-detail arro-right">查看详情</text>
+</view>
+</view>
+<view class="message">
+<view class="message-item">
+  <text class="item-title">标题</text>
+  <text class="item-date">2017-12-05</text>
+  <image class="item-image" src="//m.360buyimg.com/mobilecms/jfs/t1/2866/29/4425/101141/5b9c76a9E1d2428f0/31cdeaa65e5b59e4.jpg!cr_1125x549_0_72" mode="widthFix"></image>
+  <text class="item-desc">越努力，越幸运</text>
+  <text class="item-detail arro-right">查看详情</text>
+</view>
+</view>

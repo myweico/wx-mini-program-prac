@@ -1,10 +1,36 @@
-/**app.wxss**/
-.container {
-  height: 100%;
+/* 初始化设置 */
+page {
+  background: #f5f5f5;
+}
+
+/***** 封装的类 *****/
+/* 白色背景 */
+.bg-white {
+  background: #fff;
+}
+
+/* 20下边距 */
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+
+/* 下阴影 */
+.sb {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* 箭头 */
+.arrow-right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
-} 
+  align-items: center;
+}
+.arrow-right::after {
+  content: '';
+  display: block;
+  width: 20rpx;
+  height: 20rpx;
+  border-top: 2rpx solid #333;
+  border-right: 2rpx solid #333;
+  transform: rotate(45deg);
+}
