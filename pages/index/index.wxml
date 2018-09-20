@@ -1,17 +1,11 @@
 <swiper class="index-swiper" indicator-dots autoplay interval="2500" indicator-active-color="#fff" duration="200" circular>
-<swiper-item>
-  <image src="//m.360buyimg.com/mobilecms/s1125x690_jfs/t1/3481/31/5624/201173/5ba09c12E8a63d8f1/5ac4f0faae6148c8.jpg!cr_1125x549_0_72!q70.jpg.dpg" class="swiper-image" mode="scaleToFill"></image>
-</swiper-item>
-<swiper-item>
-  <image src="//m.360buyimg.com/mobilecms/jfs/t1/5054/20/4940/91831/5b9dfb5bE6fa216d4/ca387e914fdb6f5e.jpg!cr_1125x549_0_72" class="swiper-image" mode="scaleToFill"></image>
-</swiper-item>
-<swiper-item>
-  <image src="//m.360buyimg.com/mobilecms/s1125x690_jfs/t1/3762/38/5538/92121/5ba05e82Ebd210b2a/baa18c4d253cedb4.jpg!cr_1125x549_0_72!q70.jpg.dpg" class="swiper-image" mode="scaleToFill"></image>
+<swiper-item class="swiper-item" wx:for="{{ swiperList }}" wx:key="true">
+  <image src="{{ item.url }}" class="swiper-image" mode="aspectFill"></image>
 </swiper-item>
 </swiper>
 
 <view class="index-nav bg-white mb-20 sb">
-  <navigator class="nav-item border-right" url="/pages/nav/food/food">
+  <navigator class="nav-item border-right" url="/pages/nav/food/food?cat=1">
     <image class="nav-icon" src="/assets/icons/grid-01.png"></image>
     <text>美食</text>
   </navigator>

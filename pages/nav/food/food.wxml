@@ -1,5 +1,5 @@
 <view class="food">
-  <view class="food-item">
+  <navigator class="food-item" url="foodList/test">
     <image class="item-image" src="http://p0.meituan.net/200.0/deal/04096670dd5b86547a926f67f62d0f1d116626.jpg@132_0_718_718a%7C267h_267w_2e_90Q"></image>
     <view class="item-info">
       <text class="name">尊宝比萨</text>
@@ -8,8 +8,8 @@
       <text class="open-hours">营业时间：08:00 - 23:00</text>
       <text class="comment-star">★★★★★</text>
     </view>
-  </view>
-  <view class="food-item">
+  </navigator>
+  <navigator class="food-item" url="/pages/message/index">
     <image class="item-image" src="http://p0.meituan.net/200.0/deal/04096670dd5b86547a926f67f62d0f1d116626.jpg@132_0_718_718a%7C267h_267w_2e_90Q"></image>
     <view class="item-info">
       <text class="name">尊宝比萨</text>
@@ -18,5 +18,5 @@
       <text class="open-hours">营业时间：08:00 - 23:00</text>
       <text class="comment-star">★★★★★</text>
     </view>
-  </view>
+  </navigator>
 </view>

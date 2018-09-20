@@ -4,7 +4,8 @@
     "pages/message/index",
     "pages/profile/index",
     "pages/contact/index",
-    "pages/nav/food/food"
+    "pages/nav/food/food",
+    "pages/nav/food/foodList/test"
   ],
   "window":{
     "backgroundTextStyle":"light",
